@@ -1,21 +1,21 @@
 /** @type {import('next').NextConfig} */
 
 
+// async rewrites() {
+//     return [
+//       {
+//         source: '/about',
+//         destination: '/',
+//       },
+//     ]
+//   },
+// assetPrefix: {
 
+// }
 
 const nextConfig = {
 
-    async rewrites() {
-        return [
-          {
-            source: '/about',
-            destination: '/',
-          },
-        ]
-      },
-    assetPrefix: {
 
-    }
 }
 
 module.exports = nextConfig
